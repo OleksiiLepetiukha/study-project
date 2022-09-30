@@ -78,7 +78,7 @@ main {
 
 .main-block {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
     margin-right: 25px;
@@ -88,13 +88,15 @@ main {
 .block {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border: #d5d5d5 solid 3px;
-    flex: 1 1 250px;
+    flex: 1 1 30%;
     border-radius: 20px;
-    margin-left: 10px;
+    margin: 5px;
     padding: 0 10px;
-    height: 100%;
+    cursor: pointer;
+    
 }
 
 .block img {
@@ -128,10 +130,11 @@ main {
     color: #ffffff;
     margin: 15px 0;
     cursor: pointer;
+    
 }
 
 .block:hover {
-    margin-top: 10px;
+    background-color: #d5d5d5;
 }
 
 .block button:hover {
