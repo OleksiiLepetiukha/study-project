@@ -22,8 +22,8 @@ body {
 
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 
 }
@@ -43,7 +43,7 @@ a {
     position: sticky;
     left: 0;
     right: 0;
-    background-color: #d3b714;
+    background-color: #ecd655;
     padding: 15px;
 }
 
@@ -107,19 +107,20 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: rgba(97,131,167, 0.7) solid 3px;
+    border: rgba(97, 131, 167, 0.7) solid 3px;
     flex: 1 1 30%;
     border-radius: 20px;
     margin: 5px;
     padding: 0 10px;
     cursor: pointer;
-    
+    transition: all, 0, 5s;
+
 }
 
 .block img {
     width: 150px;
     height: 150px;
-    border: rgba(97,131,167, 0.7) solid 12px;
+    border: rgba(97, 131, 167, 0.7) solid 12px;
     border-radius: 50%;
     margin: 15px 0;
 }
@@ -136,6 +137,7 @@ main {
     text-indent: 0em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .block li {
     text-align: start;
 }
@@ -151,16 +153,23 @@ main {
     color: #ffffff;
     margin: 15px 0;
     cursor: pointer;
-    
+
 }
 
 .block:hover {
     background-color: #d8dce7;
 }
 
+.block:active {
+    position: absolute;
+    width: 67%;
+    height: 90%;
+}
+
 .block button:hover {
     background-color: #0e275e;
 }
+
 
 /* - - Aside - - - - - - - - - - - - - - - -  */
 
