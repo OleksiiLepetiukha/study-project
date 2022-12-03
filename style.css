@@ -156,6 +156,12 @@ main {
 
 }
 
+.input {
+    width: 100px;
+    height: 15px;
+    
+}
+
 .block:hover {
     background-color: #d8dce7;
 }
